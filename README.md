@@ -1,5 +1,2 @@
-# How to 
-clone the repo as a zip\
-unzip folder and rename\
-edit '.eleventy.js' for the path prefix and collections\
-use!
+In This Dull Town is a project created by IAM, and protected under a creative commons attribution non-commercial sharealike 4.0 international license. This is one piece of the project.
+Please credit me if you make any derivitive work. I would love to see it too! Message me at and see the rest of ITDT at <a href="https://itdt-content.tumblr.com/" target="_blank">https://itdt-content.tumblr.com/</a>
