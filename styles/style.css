@@ -3,17 +3,33 @@ html {
   overscroll-behavior: none;
   text-wrap-mode: wrap;
   background-color: rgb(255, 250, 244);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 14pt;
-  text-align: justify;
+  font-family: "work sans", sans-serif;
+  font-size: 13pt;
   background-color: #080808;
   color: #ffffff;
 }
-main {
-  margin: 20%;
+main,
+header,
+footer {
+  margin: 25%;
   margin-top: 5px;
-  margin-bottom: 0%;
-  min-height: 99vh;
+  margin-bottom: 5%;
+}
+main h2 {
+  margin-top: 60px;
+}
+main {
+  border-style: hidden;
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  padding-bottom: 30px;
+}
+
+.pageTitle {
+  text-align: center;
+  font-family: monospace;
+  padding: 5% 0% 5% 0%;
+  font-size: 30pt;
 }
 
 .flex {
@@ -25,12 +41,17 @@ main {
   padding: 20px;
 }
 
+a {
+  color: rgb(138, 168, 132);
+}
+
 @media (max-width: 768px) {
   body,
   html {
-    font-size: 14pt;
+    font-size: 13pt;
   }
-  main {
+  main,
+  header {
     margin: 2%;
   }
 }
